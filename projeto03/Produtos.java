@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.projeto03;
 
-/**
- *
- * @author 12724141297
- */
 public class Produtos {
     private int codigo;
     private String nome, dataValidade, dataFabricacao;

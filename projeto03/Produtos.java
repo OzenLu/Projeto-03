@@ -1,6 +1,13 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
 
 package com.mycompany.projeto03;
 
+/**
+ *
+ *
+ */
 public class Produtos {
     private int codigo;
     private String nome, dataValidade, dataFabricacao;
@@ -79,12 +86,12 @@ public class Produtos {
     
     @Override
     public String toString(){
-        return "\nCodigo: " + getCodigo() + 
+        return "\nCodigo: " + getCodigo() +
                "\nNome: " + nome + 
                "\nPreço: " + preco;
     }    
     
-    public String getCodigoRegistro(int x){
+    public String getTodosAtributos(){
         
         return "\nCodigo: " + getCodigo() + 
                "\nData de Fabricação: " + dataFabricacao +
